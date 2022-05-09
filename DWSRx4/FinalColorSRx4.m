@@ -5,6 +5,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SCALE = 2;
 % SCALE = 3;
+pkg install -forge image
+pkg load image
 SCALE = 4;
 BICTESTDATA_PATH = ['./Testx',num2str(SCALE),'Color/'];
 SRDATA_PATH = ['./Resultx',num2str(SCALE),'Lum/'];
